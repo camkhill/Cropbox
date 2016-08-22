@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B54A73121D666CE200F2B6DE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A73111D666CE200F2B6DE /* SettingsViewController.swift */; };
+		B54A73141D6671C300F2B6DE /* ExistingUserSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A73131D6671C300F2B6DE /* ExistingUserSignInViewController.swift */; };
+		B54A73161D6674A300F2B6DE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A73151D6674A300F2B6DE /* WelcomeViewController.swift */; };
+		B54A73181D667A7B00F2B6DE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A73171D667A7B00F2B6DE /* SignInViewController.swift */; };
 		B5BCA5441D63D01E004FA733 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BCA5431D63D01E004FA733 /* AppDelegate.swift */; };
 		B5BCA5461D63D01E004FA733 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BCA5451D63D01E004FA733 /* ViewController.swift */; };
 		B5BCA5491D63D01E004FA733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5BCA5471D63D01E004FA733 /* Main.storyboard */; };
@@ -14,6 +18,9 @@
 		B5BCA54E1D63D01F004FA733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5BCA54C1D63D01F004FA733 /* LaunchScreen.storyboard */; };
 		B5BCA5591D63D01F004FA733 /* CropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BCA5581D63D01F004FA733 /* CropboxTests.swift */; };
 		B5BCA5641D63D01F004FA733 /* CropboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BCA5631D63D01F004FA733 /* CropboxUITests.swift */; };
+		B5BCA5721D63D961004FA733 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BCA5711D63D961004FA733 /* CreateAccountRootViewController.swift */; };
+		B5BCA5741D65146B004FA733 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BCA5731D65146B004FA733 /* CreateAccountViewController.swift */; };
+		B5E58E201D6524FB00EC78B5 /* TermsOfServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E58E1F1D6524FB00EC78B5 /* TermsOfServiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B54A73111D666CE200F2B6DE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B54A73131D6671C300F2B6DE /* ExistingUserSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistingUserSignInViewController.swift; sourceTree = "<group>"; };
+		B54A73151D6674A300F2B6DE /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		B54A73171D667A7B00F2B6DE /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		B5BCA5401D63D01E004FA733 /* Cropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5BCA5431D63D01E004FA733 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5BCA5451D63D01E004FA733 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,9 @@
 		B5BCA55F1D63D01F004FA733 /* CropboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CropboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5BCA5631D63D01F004FA733 /* CropboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropboxUITests.swift; sourceTree = "<group>"; };
 		B5BCA5651D63D01F004FA733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5BCA5711D63D961004FA733 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		B5BCA5731D65146B004FA733 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		B5E58E1F1D6524FB00EC78B5 /* TermsOfServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsOfServiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +114,13 @@
 				B5BCA5431D63D01E004FA733 /* AppDelegate.swift */,
 				B5BCA5451D63D01E004FA733 /* ViewController.swift */,
 				B5BCA5471D63D01E004FA733 /* Main.storyboard */,
+				B54A73171D667A7B00F2B6DE /* SignInViewController.swift */,
+				B54A73151D6674A300F2B6DE /* WelcomeViewController.swift */,
+				B54A73131D6671C300F2B6DE /* ExistingUserSignInViewController.swift */,
+				B54A73111D666CE200F2B6DE /* SettingsViewController.swift */,
+				B5E58E1F1D6524FB00EC78B5 /* TermsOfServiceViewController.swift */,
+				B5BCA5731D65146B004FA733 /* CreateAccountViewController.swift */,
+				B5BCA5711D63D961004FA733 /* CreateAccountRootViewController.swift */,
 				B5BCA54A1D63D01E004FA733 /* Assets.xcassets */,
 				B5BCA54C1D63D01F004FA733 /* LaunchScreen.storyboard */,
 				B5BCA54F1D63D01F004FA733 /* Info.plist */,
@@ -259,8 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5BCA5741D65146B004FA733 /* CreateAccountViewController.swift in Sources */,
+				B54A73161D6674A300F2B6DE /* WelcomeViewController.swift in Sources */,
+				B5BCA5721D63D961004FA733 /* CreateAccountRootViewController.swift in Sources */,
 				B5BCA5461D63D01E004FA733 /* ViewController.swift in Sources */,
 				B5BCA5441D63D01E004FA733 /* AppDelegate.swift in Sources */,
+				B54A73181D667A7B00F2B6DE /* SignInViewController.swift in Sources */,
+				B54A73141D6671C300F2B6DE /* ExistingUserSignInViewController.swift in Sources */,
+				B5E58E201D6524FB00EC78B5 /* TermsOfServiceViewController.swift in Sources */,
+				B54A73121D666CE200F2B6DE /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +513,7 @@
 				B5BCA56A1D63D01F004FA733 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5BCA56B1D63D01F004FA733 /* Build configuration list for PBXNativeTarget "CropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +522,7 @@
 				B5BCA56D1D63D01F004FA733 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5BCA56E1D63D01F004FA733 /* Build configuration list for PBXNativeTarget "CropboxUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +531,7 @@
 				B5BCA5701D63D01F004FA733 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
