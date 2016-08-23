@@ -35,7 +35,7 @@ Time spent: `6`
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
 1. How can I pass information from one view controller to another view controller? In this project, I want the Sign In Root View Controller to behave differently if it is accessed from the welcome screens, vs. if it is accessed from the sign out button.
-2. 
+2. How do I save a state of a view controller when I leave it and come back to it? For example, if I entered some info in the create account screen but then go back to the welcome screen, is there a way to have that info still be there when I click "create account" again? (This isn't necessarily a good use case for this, but in other situations I may need to save some information entered in a view controller)
 
 ### Video Walkthrough 
 
@@ -47,5 +47,6 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Many challenges encountered were just little things in getting used to Xcode. In particular one thing that caused issues was when I created outlets or actions for UI elements, and later didn't need them. It seems like in some cases simply deleting the outlet or action fuction does not remove a reference that is deeper in the code. In once case I had to re-add an empty action function to prevent errors.
+Another thing that was tricky is getting scroll views to display as expected, especially when there are navigation bars or tab bars in the view - it seems that sometimes the storyboard view does not match what you will actually see when running the app.
 
